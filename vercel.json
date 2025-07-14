@@ -1,5 +1,5 @@
 {
-  "rewrites": [
-    { "source": "/(.*)", "destination": "/framed-stats.svg" }
+  "routes": [
+    { "src": "/framed-stats.svg", "dest": "/api/framed-stats.js" }
   ]
 }
